@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "slippi-replay-uploads"
+version = "0.1.0"
+description = "Automatically parse Slippi files and upload to Google Drive. Clear USB memory afterward!"
+authors = ["Adam Kunesh <apkunesh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "slippi_replay_uploads"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-api-python-client = "^2.70.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
